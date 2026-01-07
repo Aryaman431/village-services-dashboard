@@ -36,6 +36,8 @@ The Village Services Dashboard is designed to:
 - MySQL (structure provided via SQL file)
 
 ---
+##Output
+<img width="1919" height="834" alt="image" src="https://github.com/user-attachments/assets/fea8a181-f109-4edd-b793-8a74b688aaf4" />
 
 
 
