@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Village Services Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Village Services Dashboard</h1>
+<p>Connecting villagers to essential services</p>
+</header>
+
+<main class="dashboard">
+<div class="card" onclick="loadService('Water Supply')">
+<h2>Water Supply</h2>
+<p>Status & schedules</p>
+</div>
+
+<div class="card" onclick="loadService('Healthcare')">
+<h2> Healthcare</h2>
+<p>Doctors & camps</p>
+</div>
+
+<div class="card" onclick="loadService('Transport')">
+<h2>Transport</h2>
+<p>Bus timings</p>
+</div>
+
+<div class="card" onclick="loadService('Agriculture')">
+<h2> Agriculture</h2>
+<p>Crop support</p>
+</div>
+</main>
+
+<section id="output">
+<h3>Service Details</h3>
+<p id="details">Click on a service to view details.</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
